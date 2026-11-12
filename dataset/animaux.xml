@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<donnees>
+  <enregistrement>
+    <nom>Éléphant d'Afrique</nom>
+    <classe>Mammifère</classe>
+    <poids_kg>6000</poids_kg>
+    <esperance_vie_ans>70</esperance_vie_ans>
+    <statut>Vulnérable</statut>
+  </enregistrement>
+  <enregistrement>
+    <nom>Tigre du Bengale</nom>
+    <classe>Mammifère</classe>
+    <poids_kg>230</poids_kg>
+    <esperance_vie_ans>15</esperance_vie_ans>
+    <statut>En danger</statut>
+  </enregistrement>
+  <enregistrement>
+    <nom>Grand Requin Blanc</nom>
+    <classe>Poisson</classe>
+    <poids_kg>1100</poids_kg>
+    <esperance_vie_ans>70</esperance_vie_ans>
+    <statut>Vulnérable</statut>
+  </enregistrement>
+  <enregistrement>
+    <nom>Manchot Empereur</nom>
+    <classe>Oiseau</classe>
+    <poids_kg>23</poids_kg>
+    <esperance_vie_ans>20</esperance_vie_ans>
+    <statut>Quasi menacé</statut>
+  </enregistrement>
+  <enregistrement>
+    <nom>Tortue Luth</nom>
+    <classe>Reptile</classe>
+    <poids_kg>700</poids_kg>
+    <esperance_vie_ans>45</esperance_vie_ans>
+    <statut>Vulnérable</statut>
+  </enregistrement>
+</donnees>

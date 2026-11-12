@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<donnees>
+  <enregistrement>
+    <nom>Etna</nom>
+    <pays>Italie</pays>
+    <altitude_m>3357</altitude_m>
+    <derniere_eruption>2024</derniere_eruption>
+  </enregistrement>
+  <enregistrement>
+    <nom>Krakatoa</nom>
+    <pays>Indonésie</pays>
+    <altitude_m>813</altitude_m>
+    <derniere_eruption>2020</derniere_eruption>
+  </enregistrement>
+  <enregistrement>
+    <nom>Vésuve</nom>
+    <pays>Italie</pays>
+    <altitude_m>1281</altitude_m>
+    <derniere_eruption>1944</derniere_eruption>
+  </enregistrement>
+  <enregistrement>
+    <nom>Piton de la Fournaise</nom>
+    <pays>France</pays>
+    <altitude_m>2632</altitude_m>
+    <derniere_eruption>2024</derniere_eruption>
+  </enregistrement>
+</donnees>

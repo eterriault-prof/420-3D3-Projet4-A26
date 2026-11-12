@@ -1,0 +1,7 @@
+[
+  {"ville": "Montréal", "province": "Québec", "population": 2115000, "fondation": 1642},
+  {"ville": "Toronto", "province": "Ontario", "population": 2930000, "fondation": 1793},
+  {"ville": "Vancouver", "province": "Colombie-Britannique", "population": 675218, "fondation": 1886},
+  {"ville": "Calgary", "province": "Alberta", "population": 1336000, "fondation": 1884},
+  {"ville": "Ottawa", "province": "Ontario", "population": 1017000, "fondation": 1826}
+]

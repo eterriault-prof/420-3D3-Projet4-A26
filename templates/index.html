@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TransFormateur</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <h1>TransFormateur</h1>
+    <p class="sous-titre">Convertissez vos fichiers de données en quelques clics</p>
+  </header>
+
+  <main>
+    {% with messages = get_flashed_messages() %}
+      {% if messages %}
+        <ul class="erreurs">
+          {% for message in messages %}
+            <li>{{ message }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    {% endwith %}
+
+    <form action="/convertir" method="post" enctype="multipart/form-data" class="formulaire">
+      <div class="champ">
+        <label for="fichier">Fichier à convertir</label>
+        <input type="file" id="fichier" name="fichier" accept=".csv,.json,.xml,.md" required>
+        <span class="aide">Formats acceptés : CSV, JSON, XML, Markdown — max 2 Mo</span>
+      </div>
+
+      <div class="champ">
+        <label for="format_cible">Format de sortie</label>
+        <select id="format_cible" name="format_cible" required>
+          <option value="" disabled selected>Choisir un format…</option>
+          {% for source, cible in conversions %}
+            <option value="{{ cible }}">{{ source.upper() }} → {{ cible.upper() }}</option>
+          {% endfor %}
+        </select>
+      </div>
+
+      <button type="submit">Convertir et télécharger</button>
+    </form>
+  </main>
+</body>
+</html>
